@@ -1,0 +1,784 @@
+{
+  "scraped": "2026-10-01",
+  "order": [
+    "hero_header",
+    "leading_strapline",
+    "image_and_text",
+    "business_grid",
+    "projects_carousel",
+    "image_and_text",
+    "leading_strapline",
+    "news_carousel",
+    "accreditations_block"
+  ],
+  "hero": [
+    {
+      "title": "Together, we make a difference.",
+      "subtitle": "Eric Wright Group",
+      "image": "/media/divisions/construction/7Y9A2959aa.jpeg",
+      "video": null
+    },
+    {
+      "title": "Creating better futures together.",
+      "subtitle": "Eric Wright Group",
+      "image": "/media/home/hero-banner/salford-roosters.jpg",
+      "video": null
+    },
+    {
+      "title": "Transforming our communities together.",
+      "subtitle": "Eric Wright Group",
+      "image": "/media/divisions/maple-grove/animate-argento.jpg",
+      "video": null
+    },
+    {
+      "title": "Making a difference together.",
+      "subtitle": "Eric Wright Group",
+      "image": "/media/charitable-trust/7y9a6153.jpg",
+      "video": null
+    }
+  ],
+  "strapline": "At the Eric Wright Group, our business is based on a simple principle. <strong>We believe that the greatest achievement in life, is what we achieve together.</strong>",
+  "about": {
+    "title": "Making real progress together.",
+    "body": "<p>Every day, we work with a collective sense of purpose, building lasting relationships based on shared values and the drive to construct, engineer and manage with real social impact. Working on infrastructure projects, large and small, with like-minded local contractors, creators, suppliers and specialists who share our standards and dedication to creating positive and lasting change.</p>\n<p>Because together, we make a difference.</p>",
+    "image": "/media/home/eric-wright/image-split/image.png",
+    "cta": {
+      "label": "More about us",
+      "href": "/about"
+    }
+  },
+  "businesses": [
+    {
+      "title": "Construction",
+      "href": "/businesses/construction",
+      "image": "/media/divisions/construction/caton-court-1.jpg"
+    },
+    {
+      "title": "Partnerships",
+      "href": "/businesses/partnerships",
+      "image": "/media/divisions/partnerships/services---building-surveying.jpg"
+    },
+    {
+      "title": "One Partnership",
+      "href": "/businesses/one-partnership",
+      "image": "/media/home/eric-wright/divisions/one-partnership.png"
+    },
+    {
+      "title": "Water",
+      "href": "/businesses/water",
+      "image": "/media/home/eric-wright/divisions/water.png"
+    },
+    {
+      "title": "Civil Engineering",
+      "href": "/businesses/civil-engineering",
+      "image": "/media/home/eric-wright/divisions/civil-engineering.png"
+    },
+    {
+      "title": "Applethwaite",
+      "href": "/businesses/applethwaite",
+      "image": "/media/home/eric-wright/divisions/applethwaite.png"
+    },
+    {
+      "title": "Maple Grove Developments",
+      "href": "/businesses/maple-grove-developments",
+      "image": "/media/divisions/maple-grove/business-grid-image.png"
+    },
+    {
+      "title": "Wrightcare",
+      "href": "/businesses/wrightcare",
+      "image": "/media/wrightcare/castlewood/wrightcare.jpg"
+    },
+    {
+      "title": "Facilities Management",
+      "href": "/businesses/facilities-management",
+      "image": "/media/home/eric-wright/divisions/facilities-management.png"
+    }
+  ],
+  "projects": {
+    "title": "Latest case studies",
+    "items": [
+      {
+        "title": "Farington Cricket Ground and Pavilion",
+        "href": "/work/farington-cricket-ground-and-pavilion",
+        "image": "/media/Farington-cricket-club-and-pitches.jpg",
+        "date": null,
+        "tags": [
+          "Construction",
+          "Sports and Leisure"
+        ]
+      },
+      {
+        "title": "Lockgate Mews, Ancoats",
+        "href": "/work/lockgate-mews-ancoats",
+        "image": "/app/uploads/2019/10/7Y9A6113-2_resize.jpg",
+        "date": null,
+        "tags": [
+          "Construction",
+          "Residential"
+        ]
+      },
+      {
+        "title": "Hull High Street Public Realm",
+        "href": "/work/hull-high-street-public-realm",
+        "image": "/media/divisions/civil-engineering/case-studies/hull-high-street-public-realm/hull-high-street-public-realm-2.jpg",
+        "date": null,
+        "tags": [
+          "Civil Engineering",
+          "Public realm"
+        ]
+      },
+      {
+        "title": "Animate, Preston",
+        "href": "/work/animate-preston",
+        "image": "/media/divisions/maple-grove/case-studies/Animate%2C%20Preston/argento1.jpg",
+        "date": null,
+        "tags": [
+          "Maple Grove Developments",
+          "Public Sector",
+          "Regeneration",
+          "Retail & Leisure"
+        ]
+      }
+    ]
+  },
+  "careers": {
+    "title": "Outstanding opportunities for young people.",
+    "body": "<p>Our clients come from all walks of life and so do we. We hire great people from a wide variety of backgrounds who share our values, not just, because it’s the right thing to do, but because it makes our company stronger.</p>",
+    "image": "/media/home/careers/_mg_7835.jpg",
+    "cta": {
+      "label": "Current Vacancies",
+      "href": "/careers"
+    }
+  },
+  "closing": "For us together isn’t just a word. It’s a way of life. At the Eric Wright Group, we work together to create positive and lasting change in our communities.",
+  "news": {
+    "title": "Latest News",
+    "featured": {
+      "title": "Eric Wright Learning Foundation Inspires Future Construction Talent Through Industry Networking Event",
+      "href": "/news/general/eric-wright-learning-foundation-inspires-future-construction-talent-through-industry-networking-event",
+      "image": "/media/news/ewlf_pcc-networking-event-sep26-1.jpg",
+      "date": "28 September 2026",
+      "tags": [
+        "Learning Foundation"
+      ]
+    },
+    "items": [
+      {
+        "title": "Hartley Locks, Lightbody Street named Residential Development of the Year",
+        "href": "/news/general/hartley-locks-lightbody-street-named-residential-development-of-the-year",
+        "image": "/media/lcrpa_2026_residential_development.jpg",
+        "date": "25 September 2026",
+        "tags": [
+          "Construction",
+          "Residential"
+        ]
+      },
+      {
+        "title": "One Partnership and Eric Wright Partnerships celebrate 20 years of St Peter’s Health Centre",
+        "href": "/news/general/one-partnership-and-eric-wright-partnerships-celebrate-20-years-of-st-peters-health-centre",
+        "image": "/media/news/st-peters-event/jpl_9115-resized.jpg",
+        "date": "17 September 2026",
+        "tags": [
+          "Construction",
+          "Facilities Management",
+          "Partnerships",
+          "One Partnership",
+          "Public Sector",
+          "Healthcare"
+        ]
+      },
+      {
+        "title": "Eric Wright Civil Engineering helps transform Mayfield through major infrastructure improvements",
+        "href": "/news/general/eric-wright-civil-engineering-helps-transform-mayfield-through-major-infrastructure-improvements",
+        "image": "/media/news/civils/avanade-intelligent-overviews_t2_2114-resized.jpg",
+        "date": "15 September 2026",
+        "tags": [
+          "Civil Engineering",
+          "Public realm",
+          "Regeneration"
+        ]
+      },
+      {
+        "title": "Eric Wright Construction delivers fourth consecutive year of profit growth",
+        "href": "/news/general/eric-wright-construction-delivers-fourth-consecutive-year-of-profit-growth",
+        "image": "/media/news/willohaus-lower-res.jpg",
+        "date": "08 September 2026",
+        "tags": [
+          "Construction"
+        ]
+      }
+    ]
+  },
+  "accreditations": {
+    "title": "Accreditations",
+    "body": "<p>The Eric Wright Group proudly upholds a range of accreditations and certifications. Alongside ISO certifications in Quality, Environmental, Information Security Management and Health & Safety, our Group boasts additional industry-specific affiliations, showcasing our commitment to excellence and trust across every sector we serve. <a href=\"/businesses\">Our Businesses</a></p>",
+    "items": [
+      {
+        "title": "ISO 27001",
+        "logo": "/media/divisions/group/accreditations/iso-27001_ukas_urs.png"
+      },
+      {
+        "title": "ISO14001",
+        "logo": "/media/divisions/group/accreditations/iso-14001_ukas_urs.png"
+      },
+      {
+        "title": "ISO45001",
+        "logo": "/media/divisions/group/accreditations/iso-45001_ukas_urs.png"
+      },
+      {
+        "title": "ISO9001",
+        "logo": "/media/divisions/group/accreditations/iso-9001_ukas_urs.png"
+      },
+      {
+        "title": null,
+        "logo": "/media/home/accreditations/iso-50001_ukas_urs-2.png"
+      },
+      {
+        "title": "Carbon Saver",
+        "logo": "/media/divisions/group/accreditations/carbonsaver.png"
+      },
+      {
+        "title": "Cyber Essentials",
+        "logo": "/media/divisions/group/accreditations/cyber-essentials.svg"
+      }
+    ]
+  },
+  "nav": {
+    "main": [
+      {
+        "title": "Our Businesses",
+        "alias": "/businesses",
+        "isExternalSite": false,
+        "children": [
+          {
+            "title": "Construction",
+            "alias": "/businesses/construction",
+            "children": [
+              {
+                "title": "Our Approach",
+                "alias": "/businesses/construction/approach",
+                "children": []
+              },
+              {
+                "title": "Our People",
+                "alias": "/businesses/construction/people",
+                "children": []
+              },
+              {
+                "title": "Our Achievements",
+                "alias": "/businesses/construction/achievements",
+                "children": []
+              },
+              {
+                "title": "Frameworks",
+                "alias": "/businesses/construction/frameworks-and-partnerships",
+                "children": []
+              },
+              {
+                "title": "Our Work",
+                "alias": "/businesses/construction/work",
+                "children": [
+                  {
+                    "title": "Education",
+                    "alias": "/businesses/construction/work?sector=education#projects"
+                  },
+                  {
+                    "title": "Industrial",
+                    "alias": "/businesses/construction/work?sector=industrial#projects"
+                  },
+                  {
+                    "title": "Mixed use",
+                    "alias": "/businesses/construction/work?sector=mixed-use#projects"
+                  },
+                  {
+                    "title": "Sports and Leisure",
+                    "alias": "/businesses/construction/work?sector=sports-and-leisure#projects"
+                  },
+                  {
+                    "title": "Residential",
+                    "alias": "/businesses/construction/work?sector=residential#projects"
+                  },
+                  {
+                    "title": "Student Accommodation",
+                    "alias": "/businesses/construction/work?sector=student-accommodation#projects"
+                  },
+                  {
+                    "title": "Office and Commercial",
+                    "alias": "/businesses/construction/work?sector=office-and-commercial#projects"
+                  },
+                  {
+                    "title": "Healthcare",
+                    "alias": "/businesses/construction/work?sector=healthcare#projects"
+                  },
+                  {
+                    "title": "Extra Care",
+                    "alias": "/businesses/construction/work?sector=extra-care#projects"
+                  },
+                  {
+                    "title": "Retail & Leisure",
+                    "alias": "/businesses/construction/work?sector=retail-and-leisure#projects"
+                  },
+                  {
+                    "title": "Care",
+                    "alias": "/businesses/construction/work?sector=care#projects"
+                  },
+                  {
+                    "title": "Specialist Healthcare",
+                    "alias": "/businesses/construction/work?sector=specialist-healthcare#projects"
+                  },
+                  {
+                    "title": "Blue Light",
+                    "alias": "/businesses/construction/work?sector=blue-light#projects"
+                  },
+                  {
+                    "title": "Sports",
+                    "alias": "/businesses/construction/work?sector=sports#projects"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Civil Engineering",
+            "alias": "/businesses/civil-engineering",
+            "children": [
+              {
+                "title": "Our Approach",
+                "alias": "/businesses/civil-engineering/approach",
+                "children": []
+              },
+              {
+                "title": "Our People",
+                "alias": "/businesses/civil-engineering/people",
+                "children": []
+              },
+              {
+                "title": "Our Expertise",
+                "alias": "/businesses/civil-engineering/expertise",
+                "children": [
+                  {
+                    "title": "Bridges and Structures",
+                    "alias": "/businesses/civil-engineering/expertise/bridges-and-structures"
+                  },
+                  {
+                    "title": "Public Realm",
+                    "alias": "/businesses/civil-engineering/expertise/public-realm"
+                  },
+                  {
+                    "title": "Highways and Active Travel",
+                    "alias": "/businesses/civil-engineering/expertise/highways-and-active-travel"
+                  },
+                  {
+                    "title": "Transport Infrastructure",
+                    "alias": "/businesses/civil-engineering/expertise/transport-infrastructure"
+                  },
+                  {
+                    "title": "Rail",
+                    "alias": "/businesses/civil-engineering/expertise/rail"
+                  },
+                  {
+                    "title": "Energy and Renewables",
+                    "alias": "/businesses/civil-engineering/expertise/energy-and-renewables"
+                  },
+                  {
+                    "title": "Industrial",
+                    "alias": "/businesses/civil-engineering/expertise/industrial"
+                  },
+                  {
+                    "title": "Waste",
+                    "alias": "/businesses/civil-engineering/expertise/waste"
+                  },
+                  {
+                    "title": "Drainage",
+                    "alias": "/businesses/civil-engineering/expertise/drainage"
+                  },
+                  {
+                    "title": "Rivers and Water",
+                    "alias": "/businesses/civil-engineering/expertise/rivers-and-water"
+                  }
+                ]
+              },
+              {
+                "title": "Our Work",
+                "alias": "/businesses/civil-engineering/work",
+                "children": [
+                  {
+                    "title": "Drainage",
+                    "alias": "/businesses/civil-engineering/work?sector=drainage#projects"
+                  },
+                  {
+                    "title": "Industrial",
+                    "alias": "/businesses/civil-engineering/work?sector=industrial#projects"
+                  },
+                  {
+                    "title": "Public realm",
+                    "alias": "/businesses/civil-engineering/work?sector=public-realm#projects"
+                  },
+                  {
+                    "title": "Rail",
+                    "alias": "/businesses/civil-engineering/work?sector=rail#projects"
+                  },
+                  {
+                    "title": "Rivers and water",
+                    "alias": "/businesses/civil-engineering/work?sector=rivers-and-water#projects"
+                  },
+                  {
+                    "title": "Transport infrastructure",
+                    "alias": "/businesses/civil-engineering/work?sector=transport-infrastructure#projects"
+                  },
+                  {
+                    "title": "Energy & Renewables",
+                    "alias": "/businesses/civil-engineering/work?sector=energy-and-renewables#projects"
+                  },
+                  {
+                    "title": "Bridges and Structures",
+                    "alias": "/businesses/civil-engineering/work?sector=bridges-and-structures#projects"
+                  },
+                  {
+                    "title": "Highways and Active Travel",
+                    "alias": "/businesses/civil-engineering/work?sector=highways-and-active-travel#projects"
+                  },
+                  {
+                    "title": "Waste",
+                    "alias": "/businesses/civil-engineering/work?sector=waste#projects"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Facilities Management",
+            "alias": "/businesses/facilities-management",
+            "children": [
+              {
+                "title": "Our Approach",
+                "alias": "/businesses/facilities-management/approach",
+                "children": []
+              },
+              {
+                "title": "Our People",
+                "alias": "/businesses/facilities-management/people",
+                "children": []
+              },
+              {
+                "title": "Our Services",
+                "alias": "/businesses/facilities-management/our-services",
+                "children": []
+              },
+              {
+                "title": "Frameworks",
+                "alias": "/businesses/facilities-management/frameworks",
+                "children": []
+              },
+              {
+                "title": "Our Work",
+                "alias": "/businesses/facilities-management/work",
+                "children": [
+                  {
+                    "title": "Building consultancy",
+                    "alias": "/businesses/facilities-management/work?sector=building-consultancy#projects"
+                  },
+                  {
+                    "title": "Education",
+                    "alias": "/businesses/facilities-management/work?sector=education#projects"
+                  },
+                  {
+                    "title": "Health",
+                    "alias": "/businesses/facilities-management/work?sector=health#projects"
+                  },
+                  {
+                    "title": "Public Sector",
+                    "alias": "/businesses/facilities-management/work?sector=public-sector#projects"
+                  },
+                  {
+                    "title": "Student Accommodation",
+                    "alias": "/businesses/facilities-management/work?sector=student-accommodation#projects"
+                  },
+                  {
+                    "title": "Extra Care",
+                    "alias": "/businesses/facilities-management/work?sector=extra-care#projects"
+                  },
+                  {
+                    "title": "EWFM Frameworks",
+                    "alias": "/businesses/facilities-management/work?sector=ewfm-frameworks#projects"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Water",
+            "alias": "/businesses/water",
+            "children": [
+              {
+                "title": "Our Services",
+                "alias": "/businesses/water/approach",
+                "children": []
+              },
+              {
+                "title": "Our People",
+                "alias": "/businesses/water/people",
+                "children": []
+              },
+              {
+                "title": "Our Work",
+                "alias": "/businesses/water/work",
+                "children": [
+                  {
+                    "title": "Rivers and water",
+                    "alias": "/businesses/water/work?sector=rivers-and-water#projects"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Partnerships",
+            "alias": "/businesses/partnerships",
+            "children": []
+          },
+          {
+            "title": "One Partnership",
+            "alias": "/businesses/one-partnership",
+            "children": []
+          },
+          {
+            "title": "Maple Grove Developments",
+            "alias": "/businesses/maple-grove-developments",
+            "children": []
+          },
+          {
+            "title": "Applethwaite",
+            "alias": "/businesses/applethwaite",
+            "children": []
+          },
+          {
+            "title": "Wrightcare",
+            "alias": "/businesses/wrightcare",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Social Value",
+        "alias": "/social-value",
+        "isExternalSite": false,
+        "children": [
+          {
+            "title": "People",
+            "alias": "/social-value/people",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Place",
+            "alias": "/social-value/place",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Planet",
+            "alias": "/social-value/planet",
+            "isExternalSite": false,
+            "children": [
+              {
+                "title": "Our net zero greenhouse gas emissions journey",
+                "alias": "/social-value/planet/our-net-zero-greenhouse-gas-emissions-journey",
+                "isExternalSite": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Performance",
+            "alias": "/social-value/performance",
+            "isExternalSite": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Our Work",
+        "alias": "/work",
+        "isExternalSite": false,
+        "children": []
+      },
+      {
+        "title": "Charitable Trust",
+        "alias": "/charitable-trust",
+        "isExternalSite": false,
+        "children": [
+          {
+            "title": "Grants",
+            "alias": "/charitable-trust/grants",
+            "isExternalSite": false,
+            "children": [
+              {
+                "title": "Small Grants",
+                "alias": "/charitable-trust/grants/small-grants",
+                "isExternalSite": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Learning Foundation",
+            "alias": "/charitable-trust/learning-foundation",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Water Park",
+            "alias": "/charitable-trust/water-park",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "About Us",
+            "alias": "/charitable-trust/about-us",
+            "isExternalSite": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "alias": "/contact",
+        "isExternalSite": false,
+        "children": []
+      }
+    ],
+    "sub": [
+      {
+        "title": "About Us",
+        "alias": "/about",
+        "isExternalSite": false,
+        "children": [
+          {
+            "title": "Our Story",
+            "alias": "/about/story",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Our People",
+            "alias": "/about/people",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Our Commitments",
+            "alias": "/about/commitments",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Our Accreditations",
+            "alias": "/about/accreditations",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Our Portfolio",
+            "alias": "/about/portfolio",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Policies",
+            "alias": "/about/policies",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Our Approach",
+            "alias": "/about/approach",
+            "isExternalSite": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Careers",
+        "alias": "/culture",
+        "isExternalSite": false,
+        "children": [
+          {
+            "title": "Our Rewards and Benefits",
+            "alias": "/culture/rewards-and-benefits",
+            "isExternalSite": false,
+            "children": [
+              {
+                "title": "Employee Benefits",
+                "alias": "/culture/rewards-and-benefits/employee-benefits",
+                "isExternalSite": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Careers",
+            "alias": "/culture/careers",
+            "isExternalSite": false,
+            "children": []
+          },
+          {
+            "title": "Vacancies",
+            "alias": "/culture/vacancies",
+            "isExternalSite": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "News",
+        "alias": "/news",
+        "isExternalSite": false,
+        "children": []
+      }
+    ]
+  },
+  "footer": [
+    [
+      {
+        "title": "About Us",
+        "link": "/about"
+      },
+      {
+        "title": "Careers",
+        "link": "/careers"
+      },
+      {
+        "title": "News",
+        "link": "/news"
+      },
+      {
+        "title": "Contact",
+        "link": "/contact"
+      },
+      {
+        "title": "Accessibility",
+        "link": "/accessibility"
+      }
+    ],
+    [
+      {
+        "title": "Privacy Notice",
+        "link": "/privacy-policy"
+      },
+      {
+        "title": "Site Usage Policy",
+        "link": "/site-usage-policy"
+      },
+      {
+        "title": "Cookie Policy",
+        "link": "/cookie-policy"
+      },
+      {
+        "title": "Modern Slavery Statement",
+        "link": "/media/policies/ewg-hr-p-025---modern-slavery-and-human-trafficking-statement-2026.pdf",
+        "open_in_new_tab": "1"
+      }
+    ]
+  ]
+}
