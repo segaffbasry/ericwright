@@ -1,0 +1,141 @@
+/* Fonts, self-hosted.
+   The live site sets everything in Theinhardt (Optimo, commercial licence: /build/assets/light|regular|bold-*.woff2).
+   Inter Tight stands in: the closest open neo-grotesk, with the same tall x-height, tight default spacing and a true
+   Light (300) for the brand's big light straplines. One family, two roles:
+     UI/body   Inter Tight 400/500
+     Display   Inter Tight 300 (straplines, as the live site sets Theinhardt Light) and 500 with -0.02em tracking
+               (the reference's headline treatment: jdavisgc h1/h2 are 500 weight, letter-spacing -0.02em) */
+@font-face { font-family: "Inter Tight"; src: url("/fonts/inter-tight-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter Tight"; src: url("/fonts/inter-tight-latin-wght-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; font-display: swap; }
+
+/* Palette: four brand colours, nothing else (README "Palette").
+   Orange #f26400  the live brand colour (logo, subtitles, headings, the closing strapline band; 213 uses in default.css)
+   Black  #000000  the live text colour and footer ground
+   White  #ffffff
+   Mist   #f7f7f8  the live site's light ground (default.css), used for alternate sections
+   Orange text below 24px uses --orange-deep #bf4f00, the live stylesheet's own darker orange (button hover), which
+   passes AA on white (4.9:1). Tints are black or white at lower alpha. */
+:root {
+  --orange: #f26400;
+  --orange-deep: #bf4f00;
+  --black: #000000;
+  --white: #ffffff;
+  --mist: #f7f7f8;
+
+  --text: var(--black);
+  --muted: rgba(0, 0, 0, 0.66);
+  --line: rgba(0, 0, 0, 0.16);
+  --ground: var(--white);
+  --accent: var(--orange);
+  --accent-small: var(--orange-deep);
+
+  --font: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+
+  /* Type scale. jdavisgc.com at 1440px: h1 96/96 500 -0.02em, h2 56/56, project h3 36/54, body 20/30, tags 14.
+     The live site: straplines 62/68 light, section h2 64/66. Everything here sits below both (pacing rules):
+     one hero line, headlines at 52px, the strapline at 44px. */
+  --fs-hero: clamp(2.5rem, 1.35rem + 3.6vw, 5rem);       /* ≤ 80px */
+  --fs-h2: clamp(2rem, 1.35rem + 2vw, 3.25rem);          /* ≤ 52px */
+  --fs-strap: clamp(1.6rem, 1.05rem + 1.75vw, 2.75rem);  /* ≤ 44px */
+  --fs-h3: clamp(1.3rem, 1.05rem + 0.75vw, 1.875rem);    /* ≤ 30px (jdavisgc project titles: 36px) */
+  --fs-h4: clamp(1.1rem, 1rem + 0.3vw, 1.3rem);          /* ≤ 21px */
+  --fs-lead: clamp(1.0625rem, 1rem + 0.25vw, 1.25rem);   /* ≤ 20px, jdavisgc body */
+  --fs-body: clamp(1rem, 0.97rem + 0.12vw, 1.0625rem);   /* 16 to 17px */
+  --fs-small: 0.875rem;                                  /* 14px, jdavisgc tag chips */
+  --fs-label: 0.8125rem;
+
+  /* Spacing scale (pacing rules): section padding 56px on phones up to 96px on desktop. */
+  --gutter: clamp(16px, 2.5vw, 32px);                    /* jdavisgc .container: 32px side padding */
+  --max: 1360px;                                         /* jdavisgc .container: 1300px max */
+  --space-section: clamp(56px, 38px + 3.6vw, 96px);
+  --space-block: clamp(32px, 22px + 2vw, 56px);
+  --space-tight: clamp(16px, 12px + 0.6vw, 24px);
+  --header-h: 88px;
+  --measure: 62ch;
+
+  /* Easing (lib/ease.ts has the JS twins; all measured on jdavisgc.com). */
+  --ease: cubic-bezier(0, 0, 0.58, 1);           /* reveals: CSS ease-out */
+  --ease-wipe: cubic-bezier(0.16, 0.01, 0.77, 1); /* .red-swipe width */
+  --ease-ui: cubic-bezier(0.4, 0, 0.2, 1);        /* Tailwind `transition`, all hovers */
+  --dur-ui: 0.3s;                                  /* Tailwind `duration-300` on .the-button */
+
+  /* The copied interaction (components/ui.tsx WorkCard): jdavisgc `.project-article:hover`. */
+  --zoom-scale: 1.1;   /* `.project-article:hover img { transform: scale(1.1) }` */
+  --zoom-dur: 1s;      /* img `transition-transform duration-1000` */
+  --zoom-ease: var(--ease-ui);
+}
+
+[data-tone="dark"] {
+  --text: var(--white);
+  --muted: rgba(255, 255, 255, 0.74);
+  --line: rgba(255, 255, 255, 0.22);
+  --ground: var(--black);
+  --accent-small: var(--orange); /* #f26400 on black is 6.9:1 */
+  color: var(--text);
+}
+[data-tone="orange"] {
+  --text: var(--black);
+  --muted: rgba(0, 0, 0, 0.78);
+  --line: rgba(0, 0, 0, 0.24);
+  --ground: var(--orange);
+  --accent: var(--black);
+  --accent-small: var(--black);
+  color: var(--text);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: clip; }
+body { margin: 0; background: var(--white); color: var(--black); font: 400 var(--fs-body)/1.55 var(--font); overflow-x: clip; }
+img, video, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+h1, h2, h3, h4, p, ul, ol, figure, blockquote { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+:focus-visible { outline: 2px solid var(--orange-deep); outline-offset: 3px; }
+[data-tone="dark"] :focus-visible { outline-color: var(--orange); }
+[data-tone="orange"] :focus-visible { outline-color: var(--black); }
+::selection { background: var(--orange); color: var(--black); }
+
+.wrap { width: 100%; max-width: calc(var(--max) + 2 * var(--gutter)); margin-inline: auto; padding-inline: var(--gutter); }
+.section { padding-block: var(--space-section); background: var(--ground); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; left: 12px; top: -60px; z-index: 300; padding: 10px 14px; background: var(--black); color: var(--white); border-radius: 999px; transition: top .2s var(--ease-ui); }
+.skip-link:focus { top: 12px; }
+main:focus, [tabindex="-1"]:focus { outline: none; }
+
+/* Headlines: the reference's treatment (500 weight, -0.02em, tight leading), in the live site's orange for
+   section titles ("Our Businesses", "Latest case studies" and "Latest News" are orange on the live site). */
+.h-hero, .h2 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.04; text-wrap: balance; }
+.h-hero { font-size: var(--fs-hero); }
+.h2 { font-size: var(--fs-h2); color: var(--accent); }
+.h3 { font-weight: 500; font-size: var(--fs-h3); line-height: 1.2; letter-spacing: -0.02em; text-wrap: balance; }
+.h4 { font-weight: 500; font-size: var(--fs-h4); line-height: 1.3; letter-spacing: -0.01em; }
+/* The live straplines: Theinhardt Light at display size. */
+.strap { font-weight: 300; font-size: var(--fs-strap); line-height: 1.16; letter-spacing: -0.015em; text-wrap: pretty; }
+.strap .accent { color: var(--accent); }
+.lead { font-size: var(--fs-lead); line-height: 1.5; max-width: var(--measure); }
+.copy { max-width: var(--measure); color: var(--muted); }
+.copy p + p { margin-top: 0.85em; }
+.label { font-size: var(--fs-label); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; }
+
+/* Photography stays inside the palette: every photo and film frame is shown in monochrome
+   (the live images are full of brick red, sky blue and hi-vis yellow that the palette doesn't have). */
+.photo { filter: grayscale(1) contrast(1.05); }
+
+/* Reveal start states. `js` is set before first paint (layout boot script) unless reduced motion is requested,
+   so without JS, or with reduced motion, everything renders in place. motion.tsx takes over on mount. */
+html.js [data-reveal]:not([data-shown]) { opacity: 0; }
+html.js [data-reveal="image"]:not([data-shown]) { opacity: 1; clip-path: inset(100% 0 0 0); }
+html.js [data-reveal="text"]:not([data-shown]) { opacity: 1; }
+.wm { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: 0.1em; margin-bottom: -0.1em; }
+.wi { display: inline-block; will-change: transform; }
+
+/* While the preloader runs, the page under it is fixed in place. */
+html.is-loading { overflow: clip; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,51 @@
+/* ---------- Buttons: the reference's pill (jdavisgc `.the-button`) ----------
+   rounded-full, 1px border, font-weight 500, letter-spacing -0.03em, Tailwind `transition duration-300 ease-in-out`
+   on colours; the arrow moves 5px on hover over 0.5s (`.the-button:hover svg { transform: translate(5px) }`).
+   Sizes are smaller than the reference's 20px / 64px tall. */
+.btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 24px; border: 1px solid var(--orange); border-radius: 999px; font-size: 1rem; font-weight: 500; letter-spacing: -0.03em; line-height: 1; white-space: nowrap; transition: color var(--dur-ui) var(--ease-ui), background-color var(--dur-ui) var(--ease-ui), border-color var(--dur-ui) var(--ease-ui); }
+.btn .arrow { width: 12px; height: 12px; flex: none; transition: transform .5s var(--ease-ui); }
+.btn:hover .arrow, .btn:focus-visible .arrow { transform: translateX(5px); }
+/* Line: transparent with an orange rule, fills orange on hover (black text on orange: 6.6:1). */
+.btn-line { color: var(--text); background: transparent; }
+.btn-line:hover, .btn-line:focus-visible { background: var(--orange); color: var(--black); }
+/* Solid: orange with black text, turns to the ground's text colour on hover. */
+.btn-solid { background: var(--orange); color: var(--black); }
+.btn-solid:hover, .btn-solid:focus-visible { background: var(--text); border-color: var(--text); color: var(--ground); }
+/* Light: on the film. */
+.btn-light { color: var(--white); border-color: var(--white); }
+.btn-light:hover, .btn-light:focus-visible { background: var(--white); color: var(--black); }
+.btn-sm { min-height: 42px; padding: 0 18px; font-size: 0.9375rem; }
+[data-tone="orange"] .btn-line { border-color: var(--black); }
+[data-tone="orange"] .btn-line:hover { background: var(--black); color: var(--orange); }
+
+/* ---------- Arrow ring: jdavisgc `.arrow-button` (h-10 w-10 md, h-8 w-8 sm; 1px border in the text colour) ---------- */
+.arrow-ring { display: inline-flex; align-items: center; justify-content: center; flex: none; width: 40px; height: 40px; border: 1px solid currentColor; border-radius: 50%; }
+.arrow-ring .arrow { width: 16px; height: 16px; }
+@media (max-width: 760px) { .arrow-ring { width: 32px; height: 32px; } .arrow-ring .arrow { width: 13px; height: 13px; } }
+
+/* ---------- Tag chips: jdavisgc `.market-tag` (14px, line-height 100%, px-3 py-1.5, 1px #999 border, rounded-md) ---------- */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; font-size: var(--fs-small); line-height: 1; color: var(--muted); white-space: nowrap; }
+
+/* ---------- The copied interaction: jdavisgc `.project-article` (components/ui.tsx WorkCard) ---------- */
+.work-card { display: grid; align-content: start; border-top: 1px solid var(--text); color: var(--text); }
+.work-head { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 4px 16px; padding: 16px 0 18px; }
+.work-title { grid-column: 1; }
+.work-business { grid-column: 1; color: var(--muted); font-size: var(--fs-body); }
+.work-meta { grid-column: 2; grid-row: 1 / span 2; display: flex; align-items: center; gap: 16px; }
+.work-image { position: relative; overflow: hidden; aspect-ratio: 16 / 9; background: var(--mist); }
+.work-image img { object-fit: cover; transition: transform var(--zoom-dur) var(--zoom-ease); }
+/* The hover state, verbatim: title and ring take the accent at once (no colour transition on the reference),
+   the ring's border follows, the photo scales to 1.1 over 1s. */
+.work-card:hover .work-title, .work-card:focus-visible .work-title,
+.work-card:hover .arrow-ring, .work-card:focus-visible .arrow-ring { color: var(--orange); border-color: var(--orange); }
+.work-card:hover .work-image img, .work-card:focus-visible .work-image img { transform: scale(var(--zoom-scale)); }
+@media (max-width: 760px) {
+  .work-head { grid-template-columns: 1fr auto; }
+  .work-meta .tags { display: none; }
+}
+
+/* ---------- Socials ---------- */
+.socials { display: flex; gap: 10px; }
+.socials a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border: 1px solid var(--line); border-radius: 50%; transition: color var(--dur-ui) var(--ease-ui), border-color var(--dur-ui) var(--ease-ui); }
+.socials a:hover, .socials a:focus-visible { color: var(--orange); border-color: var(--orange); }
