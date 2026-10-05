@@ -63,7 +63,7 @@ Nothing was cut for pacing. The live page is already short, so every item fits w
 | Copied interaction | Not named, so jdavisgc's **featured-project card hover** (`.project-article`) was chosen. The jdavisgc pill button was the copied interaction on an earlier demo, so it was not reused for that role. |
 | UI/body [x], display [y] | Both Inter Tight. Display = 300 for straplines (as live) and 500 at -0.02em for headlines (as jdavisgc). |
 | [ONCE?] | The preloader plays on every homepage load. |
-| Photography | **Full colour**, except the hero film, which stays black and white. Client feedback (2026-10-05): "the header being in b&w is fine but the rest of the website should be in colour". The palette rule applies to the UI (type, grounds, buttons, hovers), not to the photographs. |
+| Photography | **Full colour everywhere, the hero film included**, with no black and white treatment. Client feedback (2026-10-05): the site should have more colour. The palette rule applies to the UI (type, grounds, buttons, hovers), not to photographs. |
 | Accreditation marks | The live files are white artwork for a dark ground, so they sit on black tiles. |
 | Section grounds | jdavisgc doesn't recolour on scroll, so there is no blended backdrop. Each section has its own ground (`data-tone`), alternating white / mist / black / orange. |
 | Header CTA | "Contact", in the reference's "Build with Us" slot. The live main nav also sets Contact apart. |

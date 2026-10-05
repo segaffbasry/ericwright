@@ -121,9 +121,8 @@ main:focus, [tabindex="-1"]:focus { outline: none; }
 .copy p + p { margin-top: 0.85em; }
 .label { font-size: var(--fs-label); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; }
 
-/* Photography: full colour everywhere (client feedback 2026-10-05: "the rest of the website should be in colour").
-   Only the hero film stays black and white (.hero .photo), which the client approved; the palette rule covers the UI. */
-.hero .photo { filter: grayscale(1) contrast(1.05); }
+/* Photography and the hero film are shown in full colour, untreated (client feedback 2026-10-05: more colour,
+   no black and white overlay). The palette rule covers the UI: type, grounds, buttons and hovers. */
 
 /* Reveal start states. `js` is set before first paint (layout boot script) unless reduced motion is requested,
    so without JS, or with reduced motion, everything renders in place. motion.tsx takes over on mount. */
