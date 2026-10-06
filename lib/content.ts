@@ -81,3 +81,14 @@ export const accreditations = {
 };
 
 export const scraped = home.scraped;
+
+/* Vacancies: every open role from the live /culture/vacancies listing, with the heading, line and button of the
+   live "Want to work for us?" module on /culture (client feedback 2026-10-06: add a careers section built on an
+   approved template; this is the jobs row from the approved Girling Jones demo). */
+export const vacancies = {
+  title: "Want to work for us?",
+  body: "We are always looking for people to join the Group who share our values and can grow with us. Take a look at our latest vacancies and apply directly.",
+  cta: { label: "Vacancies", href: abs("/culture/vacancies") },
+  items: home.vacancies.map((v) => ({ ...v, href: abs(v.href) })),
+};
+export type Vacancy = (typeof vacancies.items)[number];

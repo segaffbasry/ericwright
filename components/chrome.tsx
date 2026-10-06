@@ -14,10 +14,11 @@ const onPage = [
   { label: "Home", href: "#top" },
   { label: "About us", href: "#about" },
   { label: "Our Businesses", href: "#businesses" },
+  { label: "Accreditations", href: "#accreditations" },
   { label: "Latest case studies", href: "#work" },
   { label: "Careers", href: "#careers" },
+  { label: "Vacancies", href: "#vacancies" },
   { label: "Latest News", href: "#news" },
-  { label: "Accreditations", href: "#accreditations" },
 ];
 
 // The live header's main row, in order; "Contact" is the button. Groups with children open the menu at that group.

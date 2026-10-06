@@ -39,7 +39,8 @@ npm run logo       # re-split the live logo into lib/logo.ts + app/icon.svg
 | 6 | `image_and_text` "Outstanding opportunities for young people." + "Current Vacancies" | 1 | 1 | |
 | 7 | `leading_strapline` (orange band) "For us together isn't just a word…" | 1 | 1 | |
 | 8 | `news_carousel` "Latest News": featured + carousel + "More news" | 1 + 4 | 1 + 4 | Dates and tags kept. |
-| 9 | `accreditations_block` | 7 marks | 7 | Lead-in kept. Its inline "Our Businesses" link becomes the button. |
+| 9 | `accreditations_block` | 7 marks | 7 | Lead-in kept. Its inline "Our Businesses" link becomes the button. Shown straight after Our Businesses (client feedback). |
+| + | Vacancies (from `/culture/vacancies` `career_listing`, heading and line from the `/culture` "Want to work for us?" module) | 12 | 12 | Added on client feedback (2026-10-06): a careers section from an approved template. Title, location, city, business, contract, salary and closing date per role; each card links to its live job page. |
 
 Nothing was cut for pacing. The live page is already short, so every item fits within the page-length target.
 
@@ -64,7 +65,7 @@ Nothing was cut for pacing. The live page is already short, so every item fits w
 | UI/body [x], display [y] | Both Inter Tight. Display = 300 for straplines (as live) and 500 at -0.02em for headlines (as jdavisgc). |
 | [ONCE?] | The preloader plays on every homepage load. |
 | Photography | **Full colour everywhere, the hero film included**, with no black and white treatment. Client feedback (2026-10-05): the site should have more colour. The palette rule applies to the UI (type, grounds, buttons, hovers), not to photographs. |
-| Accreditation marks | The live files are white artwork for a dark ground, so they sit on black tiles. |
+| Accreditation marks | The live files are white artwork. Client feedback (2026-10-06): no tiles, marks in black, so they are recoloured with `filter: brightness(0)` on the white ground. |
 | Section grounds | jdavisgc doesn't recolour on scroll, so there is no blended backdrop. Each section has its own ground (`data-tone`), alternating white / mist / black / orange. |
 | Header CTA | "Contact", in the reference's "Build with Us" slot. The live main nav also sets Contact apart. |
 
@@ -75,11 +76,12 @@ Nothing was cut for pacing. The live page is already short, so every item fits w
 | 1 | Hero: brand film, subtitle, H1, three turning lines, "Our Businesses" | film | Full-bleed muted film, headline bottom-left, one pill button |
 | 2 | Intro: strapline, then a collage of 3 photos beside "Making real progress together." | white | "General Contracting the Right Way": staggered photo collage beside copy |
 | 3 | Our Businesses: 9 bordered rows + one framed photo that follows hover/focus | mist | Project-row header (title, arrow ring, 1px rule) |
-| 4 | Latest case studies: 4 cards, 2×2 (a swipe row on phones) | white | Featured projects (the copied interaction) |
-| 5 | Careers: image + text | black | |
-| 6 | Closing strapline | orange | Live orange band (text only) |
-| 7 | Latest News: featured card + 4 rows | white | |
-| 8 | Accreditations: lead-in + 7 marks | mist | |
+| 4 | Accreditations: lead-in + 7 marks, black on white, no tiles | white | Moved up under Our Businesses (feedback 2026-10-06) |
+| 5 | Latest case studies: 4 cards, 2×2 (a swipe row on phones) | mist | Featured projects (the copied interaction) |
+| 6 | Careers: image + text | black | |
+| 7 | Vacancies: all 12 live roles in a horizontal row, filter by business | white | The approved Girling Jones jobs row (feedback 2026-10-06) |
+| 8 | Closing strapline | orange | Live orange band (text only) |
+| 9 | Latest News: featured card + 4 rows | white | |
 | | Footer: closing line, businesses, site links, contact, legal | black | |
 
 Imagery leads the first sections: film, then the collage, then the business photos.
@@ -161,3 +163,7 @@ Every image is downloaded from ericwright.co.uk by `npm run media` (map in `cont
 - Preloader timing (performance marks `preloader:start`, `intro:done`, `preloader:end`): handover at +1.34s, removed at +1.81s. In development, `/?intro=pause` holds the timeline on frame 0 and exposes `window.__intro`, so each stage can be screenshotted with `__intro.seek(t)`.
 - At 375, 768 and 1440: no console errors, no failed requests, no broken images, no horizontal page scroll.
 - Keyboard: tab order runs skip link → logo → nav → Contact → Menu; the menu traps focus (60 tabs), Esc returns focus to the trigger, and anchors scroll through Lenis.
+
+## Client feedback log
+- **2026-10-05:** photography and the hero film in full colour, no black and white treatment anywhere.
+- **2026-10-06:** accreditation marks on a transparent ground, in black, moved up straight after Our Businesses. A careers/vacancies section was added, using the jobs row from the approved Girling Jones demo (`components/home/Vacancies.tsx`), fed by the live vacancies listing (`npm run scrape`). The rescrape also picked up the live site's newest news story. Page heights are now 7,983px at 1440, 9,114px at 768 and 8,264px at 375.

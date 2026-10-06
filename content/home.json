@@ -1,5 +1,5 @@
 {
-  "scraped": "2026-10-01",
+  "scraped": "2026-10-06",
   "order": [
     "hero_header",
     "leading_strapline",
@@ -154,15 +154,24 @@
   "news": {
     "title": "Latest News",
     "featured": {
-      "title": "Eric Wright Learning Foundation Inspires Future Construction Talent Through Industry Networking Event",
-      "href": "/news/general/eric-wright-learning-foundation-inspires-future-construction-talent-through-industry-networking-event",
-      "image": "/media/news/ewlf_pcc-networking-event-sep26-1.jpg",
-      "date": "28 September 2026",
+      "title": "Eric Wright Civil Engineering secures place on the Pagabo Civil Engineering and Infrastructure Framework",
+      "href": "/news/general/eric-wright-civil-engineering-secures-place-on-the-pagabo-civil-engineering-and-infrastructure-framework",
+      "image": "/media/news/civils/Civil-Engineering-Infrastructure-and-Enabling-Works-Announcement.png",
+      "date": "01 October 2026",
       "tags": [
-        "Learning Foundation"
+        "Civil Engineering"
       ]
     },
     "items": [
+      {
+        "title": "Eric Wright Learning Foundation Inspires Future Construction Talent Through Industry Networking Event",
+        "href": "/news/general/eric-wright-learning-foundation-inspires-future-construction-talent-through-industry-networking-event",
+        "image": "/media/news/ewlf_pcc-networking-event-sep26-1.jpg",
+        "date": "28 September 2026",
+        "tags": [
+          "Learning Foundation"
+        ]
+      },
       {
         "title": "Hartley Locks, Lightbody Street named Residential Development of the Year",
         "href": "/news/general/hartley-locks-lightbody-street-named-residential-development-of-the-year",
@@ -196,15 +205,6 @@
           "Civil Engineering",
           "Public realm",
           "Regeneration"
-        ]
-      },
-      {
-        "title": "Eric Wright Construction delivers fourth consecutive year of profit growth",
-        "href": "/news/general/eric-wright-construction-delivers-fourth-consecutive-year-of-profit-growth",
-        "image": "/media/news/willohaus-lower-res.jpg",
-        "date": "08 September 2026",
-        "tags": [
-          "Construction"
         ]
       }
     ]
@@ -243,6 +243,128 @@
       }
     ]
   },
+  "vacancies": [
+    {
+      "title": "Cleaning Operatives",
+      "href": "/careers/cleaning-operatives-1265",
+      "location": "Fountains Health Centre",
+      "city": "Chester",
+      "department": "Facilities Management",
+      "contract": "Part time",
+      "salary": "£7013 per annum",
+      "closing": "November 2nd, 2026"
+    },
+    {
+      "title": "Quantity Surveyor",
+      "href": "/careers/quantity-surveyor-1264",
+      "location": "Eric Wright Construction, North West",
+      "city": "North West",
+      "department": "Construction",
+      "contract": "Full time",
+      "salary": "Competitive",
+      "closing": "October 24th, 2026"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "href": "/careers/senior-quantity-surveyor-1263",
+      "location": "Eric Wright Construction, North West",
+      "city": "North West",
+      "department": "Construction",
+      "contract": "Full time",
+      "salary": "Competitive",
+      "closing": "October 24th, 2026"
+    },
+    {
+      "title": "Programme Manager",
+      "href": "/careers/programme-manager-1262",
+      "location": "Eric Wright Water (Preston)",
+      "city": "Preston",
+      "department": "Water",
+      "contract": "Full time",
+      "salary": "Competitive",
+      "closing": "October 9th, 2026"
+    },
+    {
+      "title": "Cleaning Operative",
+      "href": "/careers/cleaning-operative-1261",
+      "location": "Highfield Leadership Academy",
+      "city": "Blackpool",
+      "department": "Facilities Management",
+      "contract": "Full time",
+      "salary": "£13.45 per hour",
+      "closing": "October 24th, 2026"
+    },
+    {
+      "title": "Cleaning Supervisor",
+      "href": "/careers/cleaning-supervisor-1260",
+      "location": "Highfield Leadership Academy",
+      "city": "Blackpool",
+      "department": "Facilities Management",
+      "contract": "Part time",
+      "salary": "£14.45 per hour",
+      "closing": "October 24th, 2026"
+    },
+    {
+      "title": "Design Administrator",
+      "href": "/careers/design-administrator-1256",
+      "location": "Eric Wright Water (Preston)",
+      "city": "Preston",
+      "department": "Water",
+      "contract": "Full time",
+      "salary": "Competitive",
+      "closing": "October 7th, 2026"
+    },
+    {
+      "title": "Care Worker (Nights)",
+      "href": "/careers/care-worker-nights-1250",
+      "location": "Castlewood",
+      "city": "Clitheroe",
+      "department": "Wrightcare",
+      "contract": "Full time",
+      "salary": "Starting at £13.45 per hour",
+      "closing": "October 31st, 2026"
+    },
+    {
+      "title": "Care Worker (Daytime)",
+      "href": "/careers/care-worker-daytime-1248",
+      "location": "Castlewood",
+      "city": "Clitheroe",
+      "department": "Wrightcare",
+      "contract": "Full time",
+      "salary": "£13.45 per hour",
+      "closing": "October 31st, 2026"
+    },
+    {
+      "title": "Junior Fleet Administrator",
+      "href": "/careers/junior-fleet-administrator-1238",
+      "location": "Eric Wright Group Head Office (Preston)",
+      "city": "Preston",
+      "department": "Group",
+      "contract": "Full time",
+      "salary": "Competitive",
+      "closing": "August 28th, 2026"
+    },
+    {
+      "title": "Mobile Maintenance Technician, UCLAN Burnley",
+      "href": "/careers/mobile-maintenance-technician-uclan-burnley-1225",
+      "location": "UCLan Newtown Mill",
+      "city": "Burnley",
+      "department": "Facilities Management",
+      "contract": "Full time",
+      "salary": "Competitive",
+      "closing": "August 3rd, 2026"
+    },
+    {
+      "title": "Senior Estimator",
+      "href": "/careers/senior-estimator-1009",
+      "location": "Eric Wright Group Head Office (Preston)",
+      "city": "Preston",
+      "department": "Civil Engineering",
+      "contract": "Full time",
+      "salary": "Competitive with excellent benefits",
+      "closing": "October 15th, 2026"
+    }
+  ],
   "nav": {
     "main": [
       {

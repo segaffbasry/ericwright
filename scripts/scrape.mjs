@@ -40,6 +40,14 @@ const [projects] = byType("projects_carousel");
 const [news] = byType("news_carousel");
 const [accreditations] = byType("accreditations_block");
 
+// Live vacancies (/culture/vacancies `career_listing` module): every open role, for the homepage vacancies row.
+const vacRes = await fetch(`${SITE}/culture/vacancies`, { headers: { "user-agent": UA } });
+if (!vacRes.ok) throw new Error(`vacancies ${vacRes.status}`);
+const vacModules = JSON.parse(decode((await vacRes.text()).match(/:modules="([^"]*)"/)[1]));
+const listing = vacModules.find((m) => m.type === "career_listing").data.careers;
+// House rule: no en or em dashes in copy (the live hours fields use them for time ranges).
+const undash = (s) => text(s).replace(/\s*[–—]\s*/g, " to ").replace(/\s+-\s+/g, ", ").replace(/\s+/g, " ").trim();
+
 const card = (a) => ({ title: text(a.title), href: a.alias, image: a.image, date: a.date ?? null, tags: [...new Set(a.tags.map((t) => text(t.title)))] });
 
 const out = {
@@ -59,6 +67,10 @@ const out = {
     body: text(accreditations.leadin),
     items: accreditations.accreditations_block.map((a) => ({ title: a.title, logo: a.logo })),
   },
+  vacancies: listing.map((v) => ({
+    title: undash(v.title), href: v.alias, location: undash(v.location), city: undash(v.city),
+    department: v.department, contract: v.contractType, salary: undash(v.salary), closing: v.closingDate,
+  })),
   nav: {
     main: prop(html, "header-component", ":mainnavigationlinks"),
     sub: prop(html, "header-component", ":subnavigationlinks"),
@@ -67,4 +79,4 @@ const out = {
 };
 
 await writeFile(new URL("../content/home.json", import.meta.url), JSON.stringify(out, null, 2) + "\n");
-console.log(`home.json: ${out.hero.length} hero slides, ${out.businesses.length} businesses, ${out.projects.items.length} case studies, ${1 + out.news.items.length} news, ${out.accreditations.items.length} accreditations`);
+console.log(`home.json: ${out.hero.length} hero slides, ${out.businesses.length} businesses, ${out.projects.items.length} case studies, ${1 + out.news.items.length} news, ${out.accreditations.items.length} accreditations, ${out.vacancies.length} vacancies`);
